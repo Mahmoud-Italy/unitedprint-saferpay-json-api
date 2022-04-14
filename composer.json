@@ -18,7 +18,7 @@
     "require": {
         "php": "^7.3|^8.0",
         "doctrine/annotations": "^1.11",
-        "unitedprint/serializer": "1.0",
+        "unitedprint/serializer": "1.0|2.0.x-dev",
         "guzzlehttp/guzzle": "^6.3|^7.0"
     },
     "require-dev": {
