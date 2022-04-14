@@ -1,0 +1,35 @@
+{
+    "name": "unitedprint/saferpay-json-api",
+    "type": "library",
+    "description": "A php library to use the json api of Saferpay",
+    "keywords": ["saferpay"],
+    "homepage": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mahmoud Ahmed",
+            "email": "mahmoud.ahmed@unitedprint.com"
+        },
+        {
+            "name": "Additional contributors",
+            "homepage": ""
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "doctrine/annotations": "^1.11",
+        "unitedprint/serializer": "^1.0",
+        "guzzlehttp/guzzle": "^6.3|^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0",
+        "phpstan/phpstan": "^0.12.88",
+        "friendsofphp/php-cs-fixer": "^2.19"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ticketpark\\SaferpayJson\\": "lib/SaferpayJson/",
+            "Ticketpark\\SaferpayJson\\Tests\\": "tests/SaferpayJson/Tests/"
+        }
+    }
+}
