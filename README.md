@@ -4,18 +4,6 @@
 
 A php library to use the [Saferpay Json API](http://saferpay.github.io/jsonapi/).
 
-## Installation
-
-Add the library in your composer.json:
-
-```js
-composer require ticketpark/saferpay-json-api
-```
-
-## Usage
-See [example folder](/example).
-
-
 ## Documentation
 
 Note that this library is based on v1.2 of the Saferpay JSON API:
