@@ -18,7 +18,7 @@
     "require": {
         "php": "^7.3|^8.0",
         "doctrine/annotations": "^1.11",
-        "unitedprint/serializer": "2.0",
+        "unitedprint/serializer": "2.*@dev",
         "guzzlehttp/guzzle": "^6.3|^7.0"
     },
     "require-dev": {
@@ -31,7 +31,5 @@
             "Ticketpark\\SaferpayJson\\": "lib/SaferpayJson/",
             "Ticketpark\\SaferpayJson\\Tests\\": "tests/SaferpayJson/Tests/"
         }
-    },
-    "prefer-stable" : true,
-    "minimum-stability": "dev"
+    }
 }
