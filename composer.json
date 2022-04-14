@@ -31,5 +31,7 @@
             "Ticketpark\\SaferpayJson\\": "lib/SaferpayJson/",
             "Ticketpark\\SaferpayJson\\Tests\\": "tests/SaferpayJson/Tests/"
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
