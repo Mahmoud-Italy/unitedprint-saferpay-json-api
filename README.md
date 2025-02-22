@@ -1,6 +1,6 @@
 # SaferpayJsonApi
 
-[![Build Status](https://travis-ci.org/Ticketpark/SaferpayJsonApi.svg?branch=master)](https://travis-ci.org/Ticketpark/SaferpayJsonApi)
+[![Total Downloads](https://poser.pugx.org/unitedprint/saferpay-json-api/downloads)](https://packagist.org/packages/unitedprint/saferpay-json-api)
 
 A php library to use the [Saferpay Json API](http://saferpay.github.io/jsonapi/).
 
